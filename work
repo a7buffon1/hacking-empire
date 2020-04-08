@@ -1,0 +1,7 @@
+pkg update
+pkg upgrade
+pkg install jq
+pkg install git
+git clone https://github.com/mazo-masry/hacking-empire
+cd hacking-empire
+bash brute.sh
